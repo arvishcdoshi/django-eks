@@ -3,6 +3,7 @@
         <img src="blank" alt="ARVISH DOSHI" />
     </a>
 </div>
+<img width="1600" height="800" alt="google-logo" src="https://github.com/user-attachments/assets/15bb66af-7b9d-489a-bca0-641067b2b66b" />
 
 <div align="center">
     <p> Public Profile & URLs </p>
