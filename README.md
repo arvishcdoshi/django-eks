@@ -1,9 +1,8 @@
 <div align="center">
     <a href="https://www.linkedin.com/in/arvishdoshi/" target="_blank">
-        <img src="blank" alt="ARVISH DOSHI" />
+        <img width="96" height="96" alt="ARVISH DOSHI" src="https://github.com/user-attachments/assets/939820c7-3cec-4e92-b807-3de59cfcbc26" />
     </a>
 </div>
-<img width="1600" height="800" alt="google-logo" src="https://github.com/user-attachments/assets/15bb66af-7b9d-489a-bca0-641067b2b66b" />
 
 <div align="center">
     <p> Public Profile & URLs </p>
