@@ -1,25 +1,20 @@
 <div align="center">
-    <a href="https://londonappdeveloper.com" target="_blank">
-        <img src="https://londonappdeveloper.com/wp-content/uploads/2024/11/banner.svg" alt="Banner image" />
+    <a href="https://www.linkedin.com/in/arvishdoshi/" target="_blank">
+        <img src="_blank" alt="ARVISH DOSHI" />
     </a>
 </div>
 
 <div align="center">
-    <p>Full-Stack Consulting and Courses.</p>
-    <a href="https://londonappdeveloper.com" target="_blank">Website</a> |
-    <a href="https://londonappdeveloper.teachable.com/" target="_blank">Courses</a> |
-    <a href="https://londonappdeveloper.com/tutorials/" target="_blank">Tutorials</a> |
-    <a href="https://londonappdeveloper.com/consulting/" target="_blank">Consulting
+    <p> Public Profile & URLs </p>
+    <a href="https://www.linkedin.com/in/arvishdoshi/" target="_blank">LinkedIn</a> |
+    <a href="https://medium.com/@doshi.arvish15" target="_blank">Medium</a> |
+    <a href="https://leetcode.com/u/arvish_29/" target="_blank">LeetCode</a>
 </div>
 
 <br /><br >
 
-# Deploy Django to Kubernetes on AWS (EKS) Starter Code
+# Django to Kubernetes on AWS (EKS)
 
-Starting code for [London App Developer's](https://londonappdeveloper.com) tutorial on how to deploy Django to Kubernetes on AWS (EKS).
-
-In this tutorial, we teach you:
-
- * How to setup EKS, RDS and a VPC in Terraform
- * How to configure EFS for Kubernetes
- * How to deploy Django to Kubernetes
+ * Setup EKS, RDS and a VPC in Terraform
+ * Configure EFS for Kubernetes
+ * Deploy Django to Kubernetes
