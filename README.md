@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://www.linkedin.com/in/arvishdoshi/" target="_blank">
-        <img src="_blank" alt="ARVISH DOSHI" />
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGoogle_logo&psig=AOvVaw0C-k4GSJuMqUU0r6Tssg0Z&ust=1769432017159000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD6-YjeppIDFQAAAAAdAAAAABAE" alt="ARVISH DOSHI" />
     </a>
 </div>
 
