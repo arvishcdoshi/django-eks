@@ -1,5 +1,5 @@
 FROM nginxinc/nginx-unprivileged:1-alpine
-LABEL maintainer="londonappdeveloper.com"
+LABEL maintainer="Arvish Doshi"
 
 COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
 COPY ./headers.conf /etc/nginx/headers.conf
