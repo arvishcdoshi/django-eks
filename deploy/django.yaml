@@ -22,10 +22,11 @@ metadata:
     app: django
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
+  storageClassName: efs-sc
   resources:
     requests:
-      storage: 10Gi
+      storage: 5Gi
 
 ---
 
@@ -53,9 +54,7 @@ spec:
           persistentVolumeClaim:
             claimName: django-app-pvc
       containers:
-
-        - image: django-app:latest
-          imagePullPolicy: Never
+        - image: 945219712954.dkr.ecr.us-east-1.amazonaws.com/django-k8s-app:latest
           name: app
           ports:
             - containerPort: 8080
@@ -65,13 +64,13 @@ spec:
               mountPath: /vol/web
           env:
             - name: DB_HOST
-              value: django-postgres
+              value: django-k8s-db.ck9uucosgv9c.us-east-1.rds.amazonaws.com
             - name: DB_NAME
-              value: djangodb
+              value: djangoproject
             - name: DB_USER
               value: djangouser
             - name: ALLOWED_HOSTS
-              value: '127.0.0.1,localhost'
+              value: 'a3a0af6f1f63c40df89e56c697df7999-1593069963.us-east-1.elb.amazonaws.com'
             - name: DB_PASS
               valueFrom:
                 secretKeyRef:
@@ -83,8 +82,7 @@ spec:
                   name: django
                   key: secret
 
-        - image: django-proxy:latest
-          imagePullPolicy: Never
+        - image: 945219712954.dkr.ecr.us-east-1.amazonaws.com/django-k8s-proxy:latest
           name: proxy
           ports:
             - containerPort: 8000
