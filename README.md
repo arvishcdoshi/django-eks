@@ -13,7 +13,7 @@
 
 <br /><br >
 
-# Django to Kubernetes on AWS (EKS)
+# Django to Kubernetes on AWS (Elastic Kubernetes Service)
 
  * Setup EKS, RDS and a VPC in Terraform
  * Configure EFS for Kubernetes
