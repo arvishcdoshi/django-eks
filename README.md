@@ -25,3 +25,20 @@
 
 # Final Django Application hosted on AWS (EKS)
 <img width="1297" height="715" alt="EKS-2" src="https://github.com/user-attachments/assets/2175b431-1981-48a9-a86e-d1e612e12f0e" />
+
+<br/><br>
+
+Terraform Commands
+
+Initialise terraform (after adding new modules):
+terraform init
+
+Plan terraform (check what changes will be made to resources):
+terraform plan
+
+Apply Teraform:
+terraform apply
+
+Destroy resources in Terraform (removes everything):
+terraform destroy
+
