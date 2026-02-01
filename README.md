@@ -28,17 +28,25 @@
 
 <br/><br>
 
-Terraform Commands
+## Terraform Commands
 
 Initialise terraform (after adding new modules):
+```sh
 terraform init
+```
 
-Plan terraform (check what changes will be made to resources):
+Plan terraform (to check what changes will be made to resources):
+```sh
 terraform plan
+```
 
 Apply Teraform:
+```sh
 terraform apply
+```
 
 Destroy resources in Terraform (removes everything):
+```sh
 terraform destroy
+```
 
