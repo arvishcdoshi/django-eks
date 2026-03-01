@@ -50,4 +50,4 @@ Destroy resources in Terraform (removes everything):
 terraform destroy
 ```
 
-Todo: Add Terragrunt
+Todo/Next steps: Add Terragrunt
